@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@blocklytics/truffle-ledger-provider": "^1.0.10",
+    "@drizzle/store": "^1.5.3",
+    "@openzeppelin/contracts": "^4.4.1",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "path": "^0.12.7",
+    "web3": "^1.6.1",
+    "winston": "^3.4.0"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.20"
+  }
+}
