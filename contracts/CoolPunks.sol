@@ -81,6 +81,7 @@ contract CoolPunks is ERC721, Ownable {
         require(mintIndex + _mintAmount <= MAX_SUPPLY, "This order would exceed the max supply");
 
         require(_mintAmount <= MaxMintAmount(), "This order exceeds max mint amount for the current stage");
+        
         require(msg.value >= Price() * _mintAmount, "This order doesn't meet the price requirement for the current stage");
 
 
